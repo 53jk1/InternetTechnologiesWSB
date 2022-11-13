@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/kacper/.nvm/versions/node/v4.2.1/bin/node',
+1 verbose cli   '/home/kacper/.nvm/versions/node/v4.2.1/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose readDependencies loading dependencies from /home/kacper/WebstormProjects/wsb/package.json
+5 verbose install where, deps [ '/home/kacper/WebstormProjects/wsb',
+5 verbose install   [ '@babel/polyfill',
+5 verbose install     'chalk',
+5 verbose install     'compression',
+5 verbose install     'connected-react-router',
+5 verbose install     'cross-env',
+5 verbose install     'express',
+5 verbose install     'fontfaceobserver',
+5 verbose install     'history',
+5 verbose install     'hoist-non-react-statics',
+5 verbose install     'immer',
+5 verbose install     'intl',
+5 verbose install     'invariant',
+5 verbose install     'ip',
+5 verbose install     'lodash',
+5 verbose install     'minimist',
+5 verbose install     'prop-types',
+5 verbose install     'react',
+5 verbose install     'react-dom',
+5 verbose install     'react-helmet',
+5 verbose install     'react-intl',
+5 verbose install     'react-redux',
+5 verbose install     'react-router-dom',
+5 verbose install     'redux',
+5 verbose install     'redux-saga',
+5 verbose install     'reselect',
+5 verbose install     'sanitize.css',
+5 verbose install     'styled-components',
+5 verbose install     '@babel/cli',
+5 verbose install     '@babel/core',
+5 verbose install     '@babel/plugin-proposal-class-properties',
+5 verbose install     '@babel/plugin-syntax-dynamic-import',
+5 verbose install     '@babel/plugin-transform-modules-commonjs',
+5 verbose install     '@babel/plugin-transform-react-constant-elements',
+5 verbose install     '@babel/plugin-transform-react-inline-elements',
+5 verbose install     '@babel/preset-env',
+5 verbose install     '@babel/preset-react',
+5 verbose install     '@babel/register',
+5 verbose install     'add-asset-html-webpack-plugin',
+5 verbose install     'babel-core',
+5 verbose install     'babel-eslint',
+5 verbose install     'babel-loader',
+5 verbose install     'babel-plugin-dynamic-import-node',
+5 verbose install     'babel-plugin-lodash',
+5 verbose install     'babel-plugin-react-intl',
+5 verbose install     'babel-plugin-styled-components',
+5 verbose install     'babel-plugin-transform-react-remove-prop-types',
+5 verbose install     'circular-dependency-plugin',
+5 verbose install     'compare-versions',
+5 verbose install     'compression-webpack-plugin',
+5 verbose install     'coveralls',
+5 verbose install     'css-loader',
+5 verbose install     'eslint',
+5 verbose install     'eslint-config-airbnb',
+5 verbose install     'eslint-config-airbnb-base',
+5 verbose install     'eslint-config-prettier',
+5 verbose install     'eslint-import-resolver-webpack',
+5 verbose install     'eslint-plugin-import',
+5 verbose install     'eslint-plugin-jsx-a11y',
+5 verbose install     'eslint-plugin-prettier',
+5 verbose install     'eslint-plugin-react',
+5 verbose install     'eslint-plugin-redux-saga',
+5 verbose install     'eslint-plugin-react-hooks',
+5 verbose install     'file-loader',
+5 verbose install     'html-loader',
+5 verbose install     'html-webpack-plugin',
+5 verbose install     'image-webpack-loader',
+5 verbose install     'imports-loader',
+5 verbose install     'jest-cli',
+5 verbose install     'jest-dom',
+5 verbose install     'jest-styled-components',
+5 verbose install     'lint-staged',
+5 verbose install     'ngrok',
+5 verbose install     'node-plop',
+5 verbose install     'null-loader',
+5 verbose install     'offline-plugin',
+5 verbose install     'plop',
+5 verbose install     'pre-commit',
+5 verbose install     'prettier',
+5 verbose install     'react-app-polyfill',
+5 verbose install     'react-test-renderer',
+5 verbose install     'react-testing-library',
+5 verbose install     'rimraf',
+5 verbose install     'shelljs',
+5 verbose install     'style-loader',
+5 verbose install     'stylelint',
+5 verbose install     'stylelint-config-recommended',
+5 verbose install     'stylelint-config-styled-components',
+5 verbose install     'stylelint-processor-styled-components',
+5 verbose install     'svg-url-loader',
+5 verbose install     'terser-webpack-plugin',
+5 verbose install     'url-loader',
+5 verbose install     'webpack',
+5 verbose install     'webpack-cli',
+5 verbose install     'webpack-dev-middleware',
+5 verbose install     'webpack-hot-middleware',
+5 verbose install     'webpack-pwa-manifest',
+5 verbose install     'whatwg-fetch' ] ]
+6 verbose install where, peers [ '/home/kacper/WebstormProjects/wsb', [] ]
+7 verbose installManyTop reading for lifecycle /home/kacper/WebstormProjects/wsb/package.json
+8 info preinstall internet-technologies-wsb@4.0.0
+9 verbose unsafe-perm in lifecycle true
+10 info internet-technologies-wsb@4.0.0 Failed to exec preinstall script
+11 verbose stack Error: internet-technologies-wsb@4.0.0 preinstall: `npm run npmcheckversion`
+11 verbose stack Exit status 1
+11 verbose stack     at EventEmitter.<anonymous> (/home/kacper/.nvm/versions/node/v4.2.1/lib/node_modules/npm/lib/utils/lifecycle.js:214:16)
+11 verbose stack     at emitTwo (events.js:87:13)
+11 verbose stack     at EventEmitter.emit (events.js:172:7)
+11 verbose stack     at ChildProcess.<anonymous> (/home/kacper/.nvm/versions/node/v4.2.1/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+11 verbose stack     at emitTwo (events.js:87:13)
+11 verbose stack     at ChildProcess.emit (events.js:172:7)
+11 verbose stack     at maybeClose (internal/child_process.js:818:16)
+11 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+12 verbose pkgid internet-technologies-wsb@4.0.0
+13 verbose cwd /home/kacper/WebstormProjects/wsb
+14 error Linux 5.15.0-52-generic
+15 error argv "/home/kacper/.nvm/versions/node/v4.2.1/bin/node" "/home/kacper/.nvm/versions/node/v4.2.1/bin/npm" "install"
+16 error node v4.2.1
+17 error npm  v2.14.7
+18 error code ELIFECYCLE
+19 error internet-technologies-wsb@4.0.0 preinstall: `npm run npmcheckversion`
+19 error Exit status 1
+20 error Failed at the internet-technologies-wsb@4.0.0 preinstall script 'npm run npmcheckversion'.
+20 error This is most likely a problem with the internet-technologies-wsb package,
+20 error not with npm itself.
+20 error Tell the author that this fails on your system:
+20 error     npm run npmcheckversion
+20 error You can get their info via:
+20 error     npm owner ls internet-technologies-wsb
+20 error There is likely additional logging output above.
+21 verbose exit [ 1, true ]
